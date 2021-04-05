@@ -1,0 +1,52 @@
+.par-transfer {
+  z-index: 1;
+  font-family: Inter, sans-serif;
+  position: absolute;
+  width: 987px;
+  margin-top: 20px;
+  left: 0px;
+  right: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px;
+  background-color: white;
+  box-shadow: rgba(35, 55, 80, 0.3) 0px 6px 12px;
+  border-radius: 10px;
+}
+.title {
+  font-size: 16px;
+  display: flex;
+  border-radius: 10px 10px 0px 0px;
+}
+.transfer-contain {
+  display: flex;
+  margin: 80px 40px;
+  transition: all 0.7s ease 0s;
+}
+.introduce-about-transfer {
+  width: 40%;
+}
+.introduce-about-transfer h4 {
+  color: rgb(0, 62, 130);
+}
+.introduce-about-transfer .icon {
+  color: rgb(0, 111, 232);
+  text-align: center;
+  font-size: 66px;
+}
+.list-select-transfer {
+  width: 50%;
+  margin-left: 8%;
+}
+.list-select-transfer h6 i {
+  color: rgb(35, 177, 0);
+  line-height: 30px;
+}
+.pttt {
+  margin-top: 30px;
+}
+.pttt i {
+  color: rgb(33, 44, 76);
+  margin-right: 10px;
+  font-size: 32px;
+}

@@ -1,0 +1,42 @@
+.nav-action {
+  background-color: rgb(33, 44, 76) !important;
+  transition: all 0.5s ease 0s;
+}
+.scroll {
+  background-color: transparent;
+  width: 100%;
+  z-index: 10;
+  position: fixed !important;
+}
+.navbar {
+  width: 987px;
+  left: 0px;
+  right: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  background-color: transparent !important;
+  padding: 6px 0px;
+}
+.logo {
+  font-size: 40px;
+}
+.navbar-nav {
+  margin: 0px auto;
+}
+.active {
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  border-image: initial;
+  border-radius: 4px;
+}
+.sign-in {
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+}
+.sign-up {
+  border-radius: 20px;
+}

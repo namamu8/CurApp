@@ -1,0 +1,110 @@
+.header-content {
+    height: 460px;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+}
+@font-face {
+    font-family: opensans;
+    src: url("../font/OpenSans-Regular.ttf");
+  }
+*{
+
+    font-family: opensans;
+    margin: 0px;
+    padding: 0px;
+
+}
+.form-control {
+    height: 46px;
+    padding: 12px 6px;
+}
+.banner {
+    width: 987px;
+    padding-top: 150px;
+    margin: 0px auto;
+}
+.banner h3 {
+    color: white;
+    text-align: center;
+}
+.content {
+    z-index: 1;
+    font-family: Inter, sans-serif;
+    position: absolute;
+    width: 987px;
+    margin-top: 20px;
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 340px;
+    background-color: white;
+    box-shadow: rgba(35, 55, 80, 0.3) 0px 6px 12px;
+    border-radius: 10px;
+}
+.title {
+    font-size: 16px;
+    display: flex;
+    border-radius: 10px 10px 0px 0px;
+}
+.convert {
+    border-radius: 10px 0px 0px;
+}
+.convert a {
+    border-radius: 10px 0px 0px;
+}
+.title div {
+    width: 329px;
+    text-align: center;
+    background-color: rgb(240, 245, 250);
+}
+.title div a {
+    color: rgb(55, 80, 110);
+    display: block;
+    text-decoration: none;
+    padding: 16px 0px;
+}
+.action a {
+    font-weight: bold;
+    color: rgb(0, 111, 232) !important;
+    background-color: white !important;
+}
+.convert a {
+    border-radius: 10px 0px 0px;
+}
+.news {
+    border-radius: 0px 10px 0px 0px;
+}
+.converter {
+    padding: 20px 60px;
+}
+.form {
+    margin-top: 60px;
+    font-weight: bold;
+    color: rgb(20, 30, 55);
+    font-size: 16px;
+    flex-direction: row;
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+.label {
+    display: flex;
+}
+#label {
+    width: 29%;
+    margin: 0px 3%;
+}
+.in {
+    display: flex;
+    margin-bottom: 40px;
+}
+#in {
+    width: 29%;
+    margin: 0px 3%;
+}
+.form .btn-primary {
+    float: right;
+    padding: 10px 16px;
+    border-radius: 8px;
+}

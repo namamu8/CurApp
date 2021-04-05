@@ -1,25 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import { Component } from 'react';
+import Header from './Component/Header';
+import HeaderContent from './Component/HeaderContent';
+import Mid from './Component/Mid';
+import { Route, Link } from "react-router-dom";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component{
+  render(){
+    return(
+      <div>
+        <Header />
+        <HeaderContent />
+        <Route exact path="/" component={Mid}/>
+        <Route exact path="/content" component={Mid}/>
+      </div>
+    );
+  }
 }
 
 export default App;
