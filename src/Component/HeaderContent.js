@@ -3,7 +3,7 @@ import Content from './Content/Content';
 import Transfer from './Content/Transfer';
 import News from './Content/News';
 
-import { Route, Link } from "react-router-dom";
+import { Route } from "react-router-dom";
 
 class HeaderContent extends Component{
   render(){

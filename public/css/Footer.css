@@ -1,0 +1,36 @@
+.footer{
+    height: 220px;
+    background: rgb(17 23 39);
+}
+.footer-content{
+    width: 987px;
+    height: 220px;
+    margin: 0 auto;
+    padding: 30px 0;
+    font-size: 13px;
+    color: #fff;
+    position: relative;
+    display: flex;
+}
+.last{
+    position: absolute;
+    font-size: 12px;
+    bottom: 10px;
+}
+.infomation{
+    width: 35%;
+}
+.info-til{
+    font-weight: bold;
+    font-size: 18px;
+}
+.service{
+    width: 35%;
+}
+.social{
+    width: 30%;
+}
+.social i{
+    font-size: 30px;
+    margin-right: 10px;
+}

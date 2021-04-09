@@ -5,6 +5,10 @@
   margin-top: 180px;
   text-align: center;
 }
-.content-mid h4 {
+.mid h4 {
   color: rgb(0, 62, 130);
+}
+.curTable{
+  width: 987px;
+  margin: 40px auto 0 auto;
 }
